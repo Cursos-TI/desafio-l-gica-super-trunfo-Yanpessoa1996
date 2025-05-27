@@ -57,6 +57,7 @@ printf("\033[31mInformacoes da carta 2\033[0m\n\n");
     scanf("%f", &pib2);
     printf("\n");
 
+    //Atributo para comparação "PIB" - logica de comparação usando "IF" e "Else".
     if (pib1 > pib2)
     {
         printf("\033[32mA cidade %s eh a vencedora do desafio!\033[0m\n\n",nomecidade1);
